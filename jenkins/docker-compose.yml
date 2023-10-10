@@ -1,0 +1,14 @@
+version: '3'
+services:
+# For creating jenkins container
+  jenkins:
+    container_name: jenkins
+    image: jenkins/jenkins
+    ports:
+      - "8080:8080"
+    volumes:
+      - "/home/ubuntu/jenkins/jenkins_home:/var/jenkins_home"
+    networks:
+      - net
+networks:
+  net:
