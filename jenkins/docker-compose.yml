@@ -10,11 +10,22 @@ services:
       - "/home/ubuntu/jenkins/jenkins_home:/var/jenkins_home"
     networks:
       - net
+# For creating remote host
   remote_host:
     container_name: remote_host
     image: remote_host
     build:
       context: ubuntu
+    networks:
+      - net
+# For creating container for mysql
+  db_host:
+    container_name: db
+    image: mysql:5.7
+    environment:
+      - "MYSQL_ROOT_PASSWORD=1234"
+    volumes:
+      - $PWD/db_data:/var/lib/mysql
     networks:
       - net
 networks:
