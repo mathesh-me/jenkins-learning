@@ -1,4 +1,14 @@
-# commands for docker engine installation:
+# Prerequistes:
+- You should have Ubuntu (either installed on physical hardware or in a virtual machine) or any other Linux distribution, or macOS.
+- If you are using Ubuntu in a virtual machine, make sure you can SSH into the machine.
+- To SSH into the machine, use the following command:
+```
+ssh -i user@host_ip
+```
+- It will prompt you for a password; please provide the password.
+- After that, you'll be ready to go.
+
+# Commands for docker engine installation:
 
 ```
 for pkg in docker.io docker-doc docker-compose podman-docker containerd runc; do sudo apt-get remove $pkg; done
@@ -27,7 +37,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 sudo docker run hello-world
 ```
 
-# commands for docker-compose installation:
+# Commands for docker-compose installation:
 
 ```
 sudo apt-get update
@@ -38,10 +48,13 @@ sudo apt-get install docker-compose
 ```
 docker-compose version
 ```
-# docker command for installing jenkins image in docker:
+# Docker command for installing jenkins image in docker:
 
 ```
 docker pull jenkins/jenkins
 ```
+
+# Configure the Jenkins server:
+- Use the docker-compose file in my repository to create container for jenkins server
 
 
