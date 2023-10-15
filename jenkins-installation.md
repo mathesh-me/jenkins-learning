@@ -11,10 +11,6 @@ ssh -i user@host_ip
 # Commands for docker engine installation:
 
 ```
-for pkg in docker.io docker-doc docker-compose podman-docker containerd runc; do sudo apt-get remove $pkg; done
-```
-
-```
 # Add Docker's official GPG key:
 sudo apt-get update
 sudo apt-get install ca-certificates curl gnupg
@@ -33,6 +29,7 @@ sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
 
+**To check whether docker is installed or not**
 ```
 sudo docker run hello-world
 ```
@@ -45,16 +42,56 @@ sudo apt-get install docker-compose
 
 ```
 
+**To check whether docker-compose is installed or not**
 ```
 docker-compose version
 ```
+
 # Docker command for installing jenkins image in docker:
 
 ```
 docker pull jenkins/jenkins
 ```
+# To start docker service whenever our system reboot:
+```
+sudo systemctl enable docker
+```
 
-# Configure the Jenkins server:
-- Use the docker-compose file in my repository to create container for jenkins server
+# To add ubuntu user to docker group:
+```
+sudo usermod -aG docker ubuntu
+```
 
+# Create a new directory with any name you want:
+- And then create a docker-copose.yml file to spin up the container , you can use any editor you want to create the file.
+
+```docker-compose.yml
+version: '3'
+services:
+# For creating jenkins container
+  jenkins:
+    container_name: jenkins
+    image: jenkins/jenkins
+    ports:
+      - "8080:8080"
+    volumes:
+      - "$PWD/jenkins_home:/var/jenkins_home"
+    networks:
+      - net
+networks:
+  net:
+```
+- Create a new folder inside the folder you just created.
+- Give the new folder name as jenkins_home
+- And then run below command to give permissions to ubuntu user to store data in that folder:
+```
+sudo chown 1000:1000 ubuntu -R
+```
+
+# Create the jenkins server:
+
+- Finally run the below command to spin up the server:
+```
+docker-compose up -d
+```
 
