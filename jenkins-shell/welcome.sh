@@ -1,0 +1,1 @@
+echo "Welcome $(whoami), Today's date and time is $(date)"
