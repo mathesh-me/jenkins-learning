@@ -34,6 +34,16 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 sudo docker run hello-world
 ```
 
+# To start docker service whenever our system reboot:
+```
+sudo systemctl enable docker
+```
+
+# To add ubuntu user to docker group:
+```
+sudo usermod -aG docker ubuntu
+```
+
 # Commands for docker-compose installation:
 
 ```
@@ -51,15 +61,6 @@ docker-compose version
 
 ```
 docker pull jenkins/jenkins
-```
-# To start docker service whenever our system reboot:
-```
-sudo systemctl enable docker
-```
-
-# To add ubuntu user to docker group:
-```
-sudo usermod -aG docker ubuntu
 ```
 
 # Create a new directory with any name you want:
@@ -85,7 +86,7 @@ networks:
 - Give the new folder name as jenkins_home
 - And then run below command to give permissions to ubuntu user to store data in that folder:
 ```
-sudo chown 1000:1000 ubuntu -R
+sudo chown 1000:1000 jenkins_home -R
 ```
 
 # Create the jenkins server:
