@@ -89,10 +89,42 @@ networks:
 sudo chown 1000:1000 jenkins_home -R
 ```
 
-# Create the jenkins server:
+# Creating the jenkins server:
 
 - Finally run the below command to spin up the server:
 ```
 docker-compose up -d
 ```
+
+# Exploring Jenkins UI:
+
+- Use the IP address of your machine to log in to Jenkins.
+- Your_IP:8080 (E.g., 44.176.0.1:8080) Paste this into your browser to log in to Jenkins.
+- Make sure that your machine allows traffic on port 8080.
+- Use the following command to retrieve the login password:
+```
+docker logs -f container_name
+```
+If you Scroll down little bit you can see something like this:
+
+*************************************************************
+*************************************************************
+*************************************************************
+
+Jenkins initial setup is required. An admin user has been created and a password generated.
+Please use the following password to proceed to installation:
+
+***fc013f995f8f4322b799694109ef2d34*** # This is the password
+
+This may also be found at: /var/jenkins_home/secrets/initialAdminPassword
+
+*************************************************************
+*************************************************************
+*************************************************************
+- After that, Jenkins will prompt you to install plugins. You can choose and install plugins according to your preferences.
+- Following this, you can create your account.
+- Next, Jenkins will prompt you to change the URL. You can change it if desired, or leave it as it is.
+- Finish the above steps to enter into jenkins UI.
+
+
 
