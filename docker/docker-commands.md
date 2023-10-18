@@ -6,6 +6,10 @@ docker-compose up -d
 ```
 docker ps
 ```
+### Docker command for view logs of container:
+```
+docker logs -f container_name
+```
 ### Docker Command for getting bash terminal in Container:
 ```
 docker exec -ti container_name bash
