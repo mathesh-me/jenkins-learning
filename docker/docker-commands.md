@@ -1,3 +1,11 @@
+### Docker Command for spin up the container:
+```
+docker-compose up -d
+```
+### Docker command for list the containers:
+```
+docker ps
+```
 ### Docker Command for getting bash terminal in Container:
 ```
 docker exec -ti container_name bash
