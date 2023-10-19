@@ -1,0 +1,2 @@
+crumb=$(curl -u "user-name:password" -s 'http://jenkins:8080/crumbIssuer/api/xml?xpath=concat(//crumbRequestField,":",//crumb)')
+curl -u "user-name:password" -H "$crumb" -X POST  http://jenkins:8080/job/job-name/buildWithParameters?PARAMETER_1=Value&PARAMETER_2=Value
