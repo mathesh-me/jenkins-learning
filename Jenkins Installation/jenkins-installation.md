@@ -88,6 +88,10 @@ networks:
 ```
 sudo chown 1000:1000 jenkins_home -R
 ```
+- 1000:1000 in the above command means the id of user , You can check your user id by using the below command:
+```
+id
+```
 
 # Creating the jenkins server:
 
@@ -107,9 +111,9 @@ docker logs -f container_name
 ```
 If you Scroll down little bit you can see something like this:
 
-*************************************************************
-*************************************************************
-*************************************************************
+############################################################################################
+############################################################################################
+############################################################################################
 
 Jenkins initial setup is required. An admin user has been created and a password generated.
 Please use the following password to proceed to installation:
@@ -118,9 +122,10 @@ Please use the following password to proceed to installation:
 
 This may also be found at: /var/jenkins_home/secrets/initialAdminPassword
 
-*************************************************************
-*************************************************************
-*************************************************************
+###########################################################################################
+###########################################################################################
+###########################################################################################
+
 - After that, Jenkins will prompt you to install plugins. You can choose and install plugins according to your preferences.
 - Following this, you can create your account.
 - Next, Jenkins will prompt you to change the URL. You can change it if desired, or leave it as it is.
