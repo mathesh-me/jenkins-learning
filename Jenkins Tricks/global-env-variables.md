@@ -1,0 +1,1 @@
+[Click here to see the Golbal Environment Variables](https://wiki.jenkins.io/display/JENKINS/Building+a+software+project)
