@@ -18,11 +18,13 @@
 ```
 
 ### Test the code:
+- Command:
 ```
 test
 ```
 
 ### Shell Command for Deploy the Jar Locally:
+- Command:
 ```
 java -jar /var/jenkins_home/workspace/maven-job/target/my-app-1.0-SNAPSHOT.jar
 ```
