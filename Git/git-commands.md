@@ -22,5 +22,5 @@ git commit -m "commit message"
 - Git command for push the changes to git repository:
 
 ```
-git push origin main
+git push origin branch_name
 ```
