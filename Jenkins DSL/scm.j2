@@ -1,0 +1,17 @@
+job('job_dsl_scm') {
+
+    description('This is my SCM testing Job')
+
+  
+    parameters {
+        stringParam('Planet', defaultValue = 'world', description = 'This is the world')
+	booleanParam('FLAG', true)
+        choiceParam('OPTION', ['option 1 (default)', 'option 2', 'option 3'])
+    }
+
+
+    scm {
+        git('https://github.com/jenkins-docs/simple-java-maven-app', 'master')
+    }
+
+}
