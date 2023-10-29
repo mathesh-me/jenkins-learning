@@ -5,7 +5,7 @@ job('job_dsl_parameters') {
   
     parameters {
         stringParam('Planet', defaultValue = 'world', description = 'This is the world')
-	booleanParam('FLAG', true)
+	    booleanParam('FLAG', true)
         choiceParam('OPTION', ['option 1 (default)', 'option 2', 'option 3'])
     }
 
