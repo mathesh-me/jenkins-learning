@@ -12,7 +12,7 @@ During my learning journey, I will be working on a few projects. These projects 
 | Project No | Repository Link |
 | ------ | ------ |
 | 1 | [Deploying High-Availability One-Tier AWS Architecture with Terraform and Jenkins](https://github.com/mathesh-me/aws-ha-deployment-jenkins-terraform) |
-| 2 | [CI/CD Pipeline for Java Application using Docker and Maven][https://github.com/mathesh-me/ci-cd-pipeline-docker-maven] |
+| 2 | [CI/CD Pipeline for Java Application using Docker and Maven](https://github.com/mathesh-me/ci-cd-pipeline-docker-maven) |
 | 3 | [.NET Application Deployment with Jenkins CI/CD](https://github.com/mathesh-me/ci-cd-dotnet-app-deployment) |
 | 4 | [DSL Approach Maven app Deployment Jenkins Project ](https://github.com/mathesh-me/dsl-approach-jenkins-project) |
 
