@@ -1,6 +1,12 @@
 # Jenkins Learning Documentation Repository
 Welcome to my Jenkins learning documentation repository! This repository is a place where I document my journey of learning. Here, you will find my files, resources, and insights I've gathered along the way.
 
+<p align="center">
+    <img src="https://github.com/mathesh-me/jenkins-learning/assets/144098846/9008b196-5694-4a01-943c-21cb4039f244" alt="jenkins" />
+</p>
+
+
+
 ## Table of Contents
 I will Update this Table of Contents as I learn new things.
 
