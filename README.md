@@ -11,8 +11,8 @@ Welcome to my Jenkins learning Documentation repository. This repository is a pl
 - [Jenkins Learning Documentation Repository](#jenkins-learning-documentation-repository)
   - [Table of Contents](#table-of-contents)
   - [Projects Section](#projects-section)
-  - [Resources Used](#resources)
-  - [Tools Used](#tools)
+  - [Resources Used](#resources-used)
+  - [Tools Used](#tools-used)
   - [License](#license)
   - [Contribution](#contribution)
 
