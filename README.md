@@ -17,9 +17,8 @@ Welcome to my Jenkins learning Documentation repository. This repository is a pl
   - [Contribution](#contribution)
 
 ## Projects Section
-During my learning journey, I will be working on a few projects. These projects will be listed here.I will do 5 projects for evry tools I learn.That 5 Projects will be listed here.I wil update this section as I do more new projects.
-
-| Project No | Repository Link |
+During my learning journey, I will be working on a few projects. I will be Updating this section as I complete my projects. Here are the projects I have completed so far:
+| **Project No** | **Repository Link** |
 | ------ | ------ |
 | 1 | [Deploying High-Availability One-Tier AWS Architecture with Terraform and Jenkins](https://github.com/mathesh-me/aws-ha-deployment-jenkins-terraform) |
 | 2 | [CI/CD Pipeline for Java Application using Docker and Maven](https://github.com/mathesh-me/ci-cd-pipeline-docker-maven) |
@@ -36,19 +35,19 @@ Resources I will be using for my learning journey will be listed here.I will upd
 ## Tools Used
 Tools I will be using for my learning journey will be listed here.
 
-**OS I used for my learning journey:**
-- Windows 10 Home
-- Ubuntu 20.04 LTS
+OS I used for my learning journey:
+- **Windows 11 Home**
+- **Ubuntu 20.04 LTS**
 
-**Tools I used for my learning journey:**
-- Jenkins
-- Docker
-- Maven
-- Visual Studio Code
-- Git
+Tools I used for my learning journey:
+- **Jenkins**
+- **Docker**
+- **Maven**
+- **Visual Studio Code**
+- **Git**
 
 ## License
-This repository is licensed under the MIT license. See LICENSE for details.
+This repository is licensed under the **MIT license**. See `LICENSE` for details.
 
 ## Contribution
-Contributions are always welcome! Please create a PR to contribute to this repository.
+**Contributions are always welcome!** Please create a PR to contribute to this repository. I will review the PR and merge it if it adds value to the repository. Try to add the resources you have used for your learning journey and the tools you have used. Also, add the projects you have worked on during your learning journey. So it will be helpful for others who are starting their learning journey just like us. **Happy Learning!** 🚀
