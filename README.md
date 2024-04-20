@@ -50,4 +50,4 @@ Tools I used for my learning journey:
 This repository is licensed under the **MIT license**. See `LICENSE` for details.
 
 ## Contribution
-**Contributions are always welcome!** Please create a PR to contribute to this repository. I will review the PR and merge it if it adds value to the repository. Try to add the resources you have used for your learning journey and the tools you have used. Also, add the projects you have worked on during your learning journey. So it will be helpful for others who are starting their learning journey just like us. **Happy Learning!** 🚀
+**Contributions are always welcome!** Please create a PR to contribute to this repository. I will review the PR and merge it if it adds value to the repository. Try to add the resources you have used for your learning journey and the tools you have used. Also, add the projects you have worked on during your learning journey. So it will be helpful for others who are starting their learning journey just like us. **Happy Learning!** 
